@@ -1,0 +1,49 @@
+  nav {
+      background-color:#696969;
+       width: 100%;
+        text-align: center;
+         color:#4B0082;
+          font-family:Arial;
+            }
+             nav a {
+                  display: inline-block;
+                   margin: 5px;
+                    padding: 5px  10px;
+                     background-color: #A9A9A9;
+                     font-size: 0.9em;
+                       color:#00008B;
+                        font-famiy: Arial;
+                         text-decoration: none;
+                          border-radius:6px; 
+                           transition: background-color 3s, 3s;
+                             }
+                    nav a:hover {
+                     color: cyan; /* color al pasar el cursor */
+                      background-color: #90EE90;
+                      font-family:Poppins;
+                       }
+                         body {
+                              background-image: url(Stich.jpg);
+                               background-size: cover;
+                                }
+                                 section {
+                                  background-color:#A9A9A9;
+                                   width:45%;
+                                    margin: auto;
+                                      margin-top: 30px;
+                                       padding: 20px; /*margen para el texto*/ 
+                                        border-radius: 13px;
+                                   }
+                                header { 
+                               color: #000000;
+                              background-color:#808080;
+                             text-align: center;
+                            font-family: serif;
+                           }
+
+                         .logo h1 {
+                        font-size: 4em
+                       }
+                     .logo p {
+                      font-size: 2em
+                     }

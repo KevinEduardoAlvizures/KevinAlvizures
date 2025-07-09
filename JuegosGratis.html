@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juegos Gratis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00ffc8;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #00ffc8;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .content h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #00ffc8;
+    }
+
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .game-card {
+      background-color: #333;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+      background-color: #444;
+    }
+
+    .game-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .game-card h3 {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: #00ffc8;
+    }
+
+    .play-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #00ffc8;
+      color: #111;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .play-btn:hover {
+      background-color: #00bfa1;
+      color: white;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9em;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Juegos Gratis</h1>
+  </header>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+  <nav>
+    <a href="INDEX.html">Inicio</a>
+    <a href="Juegos.html">Juegos</a>
+    <a href="JuegosGratis.html">Juegos Gratis</a>
+    <a href="formulario.html">Formulario</a>
+    <a href="historia.html">Historia</a>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="content">
+    <h2>Disfruta de Juegos Gratis</h2>
+    <p>Encuentra los mejores juegos para jugar sin costo alguno. ¡Diversión asegurada!</p>
+
+    <div class="game-grid">
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x200?text=Juego+Gratis+1" alt="Juego Gratis 1" />
+        <h3>Juego Gratis 1</h3>
+        <a href="#" class="play-btn">Jugar Ahora</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x200?text=Juego+Gratis+2" alt="Juego Gratis 2" />
+        <h3>Juego Gratis 2</h3>
+        <a href="#" class="play-btn">Jugar Ahora</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x200?text=Juego+Gratis+3" alt="Juego Gratis 3" />
+        <h3>Juego Gratis 3</h3>
+        <a href="#" class="play-btn">Jugar Ahora</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/300x200?text=Juego+Gratis+4" alt="Juego Gratis 4" />
+        <h3>Juego Gratis 4</h3>
+        <a href="#" class="play-btn">Jugar Ahora</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    &copy; 2025 KEVIN - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
